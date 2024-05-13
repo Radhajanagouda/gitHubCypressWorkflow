@@ -1,5 +1,5 @@
-name:first_demo
-on:[push]
+name: first_demo
+on: [push]
 jobs:
   first_demo_job:
     name: The first demo jobs
