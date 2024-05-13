@@ -6,7 +6,7 @@ const basePage = {
    * @param  {string} relativeUrl
    */
   goto (relativeUrl = '') {
-    cy.visit('${this.baseUrl}${this.url}${relativeUrl}')
+    cy.visit('https://qualityshepherd.com/')
   }
 }
 export default basePage
