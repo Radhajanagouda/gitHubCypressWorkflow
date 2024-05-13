@@ -7,6 +7,6 @@ jobs:
     steps:
      - name: Show te demp running
        env:
-        VAR1:This
+        VAR1: This
        run:
         echo $VAR1
